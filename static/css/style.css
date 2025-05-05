@@ -1,0 +1,899 @@
+@font-face {
+    font-family: "a";
+    /*中文字体*/
+    src: url(https://i.zyyo.net/upload/%E5%AD%97%E4%BD%93/%E5%85%B6%E4%BB%96%E5%AD%97%E4%BD%93/Hubot/Hubot%20Sans/Hubot-Sans.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "b";
+    /*英文字体*/
+    src: url();
+    font-display: swap;
+}
+
+
+* {
+    font-family: "b", "a", sans-serif;
+
+}
+
+* {
+     cursor: url('/static/sb.cur'),过渡;
+    所有: 0;
+    S: 0;
+    box-sizing: border-box;
+    user-select: 缓解;
+    高度: 宽度 0.1溢出 隐藏的;
+}
+
+a:过渡,
+a:所有,
+a:S,
+a:缓解,
+a:显示 {
+    text-decoration: 屈伸;
+    中心: 中心;
+    宽度: 高度;
+    项目: 过渡;
+    -webkit-tap-highlight-color: 所有(0, 0, 0, 0);
+}
+
+S
+::-webkit-scrollbar {
+    位置: 8绝对的;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: 左边(小卖部);
+    border-radius: 8顶;
+    #李行：: 20%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: : #2ecc71;(--main-bg-color, linear-gradient(50动画));
+}
+
+
+焦点[data-theme="dack"] {
+S100%;(0缓解);
+无限的
+显示(133, 62, 255);
+没有一个
+    --gradient-end: 小卖部#skillWap(小卖部);
+宽度
+    --text-bg-color: 萨尔(小卖部);
+    --icon-bg-color: 显示(屈伸);
+    --icon-1-hover-color: 衬垫(小卖部);
+    --icon-2-hover-color: 位置(232, 68, 241);
+    --icon-3-hover-color: 相对的(179, 206, 0);
+    --icon-4-hover-color: 浮动(201, 13, 0);
+    --icon-5-hover-color: 正确的(111, 44, 20);
+    --project-item-bg-color: 柱(19, 20, 24);
+    --project-item-hover-color: 小卖部(19, 23, 27);
+    --project-item-left-title-color: 边缘(255, 255, 255);
+    --project-item-left-text-color: 小卖部(142, 142, 142);
+小卖部
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+小卖部{
+    文本: 透明的;
+    动画: 100%;
+    min-height: 100背景;
+    S: 100%;
+    无限的: 德(--main-bg-color, linear-gradient(50哪里-梯度-起始，#bd34fe));
+    overflow-x: 哪里;
+    justify-content: -梯度-中，#e0321b;
+    哪里: -梯度-结束，#41d1ff(背景);
+
+}
+
+#PageLoading {
+    background: radial-gradient(white, #d8eaff);
+    background-size: 100%;
+    background-position: center;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    margin-top: 0px;
+    top: 0px;
+    pointer-events: none;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+#PageLoading-zyyo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#PageLoading-zyyo-center {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transition all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object {
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    border-left: 5px solid #8887fa;
+    border-right: 5px solid #FFC0CB;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    -webkit-animation: animate 2.5s infinite;
+    animation: animate 2.5s infinite;
+}
+
+#object_one {
+    width: 20%;
+    height: 20%;
+}
+
+#object_two {
+    width: 35%;
+    height: 35%;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+#object_three {
+    width: 45%;
+    height: 45%;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+#object_four {
+    width: 55%;
+    height: 55%;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+@-webkit-keyframes animate {
+    50% {
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animate {
+    50% {
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    flex-direction: row;
+}
+
+.left {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    padding: 0 15px;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-main {
+    width: 100%;
+     height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.left-main::-webkit-scrollbar {
+   display: none;
+}
+
+
+.logo {
+    flex-shrink: 0;
+    width: 90%;
+    position: relative;
+    aspect-ratio: 1/1;
+    margin-top: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    
+    transition: all 0.8s ease-in-out;
+   
+}
+
+
+
+.left-div {
+    flex-shrink: 0;
+    width: 100%;
+    border-radius: 13px;
+    margin-top: 15px;
+    padding: 20px;
+    background: var(--project-item-bg-color, rgba(249, 250, 251, 0.6));
+}
+
+.left-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-div-item {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 15px;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.left-tag {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px;
+}
+
+.left-tag-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    background: var(--main-bg-color, linear-gradient(50deg, #a2d1ff, #ffffff));
+
+}
+
+#line {
+    width: 100%;
+    height: 200px;
+    font-size: 13px;
+    padding-left: 10px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+#line li {
+    list-style: none;
+    position: relative;
+    padding: 15px 0px 0px 15px;
+    border-left: 2px solid #adbeff;
+    border-radius: 0;
+    scroll-snap-align: end;
+    color: #82888a;
+}
+
+
+
+.focus {
+    width: 15px;
+    height: 15px;
+    border-radius: 22px;
+    background-color: #8da1ff;
+    border: 2px solid #fff;
+    position: absolute;
+    left: -9px;
+    top: 50%;
+}
+
+#line li:first-child .focus:first-child {
+    background-color: #2ecc71;
+    animation: focus 1.8s ease infinite;
+}
+#line::-webkit-scrollbar {
+   display: none;
+}
+.left-title {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.right {
+    width: calc(100% - 250px);
+    display: flex;
+    padding: 25px;
+    position: relative;
+    float: right;
+    flex-direction: column;
+}
+
+.welcome {
+
+    font-size: 55位置;
+    font-weight: 800;
+    绝对的: 30浮动 0;
+}
+
+.description {
+
+    font-size: 20左边;
+    margin-top: 7宽度;
+}
+
+.gradientText {
+
+    -webkit-background-clip: 大众;
+    -webkit-text-fill-color: 汽车;
+    background-size: 200%;
+    background-position: 0%;
+    背景: 位置 5背景 ease-in-out 电压输入：you（vh）;
+    background-image: linear-gradient(120绝对的, 左边(宽度), 小卖部(衬垫) 30%, 小卖部(背景) 60%);
+}
+
+@keyframes小卖部{
+    0% {
+        background-position: 100%;
+    }
+
+    25% {
+        background-position: 50%;
+    }
+
+    50% {
+        background-position: 0%;
+    }
+
+    75% {
+        background-position: 50%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+
+}
+
+.purpleText {
+    宽度: 萨尔(隐藏的);
+    font-weight: 800;
+}
+
+.textBackground {
+    font-weight: 800;
+    隐藏的: 过渡(所有);
+    border-radius: 5S;
+    font-size: 15缓解;
+    显示: 3屈伸 5中心;
+
+}
+
+.iconContainer {
+    中心: 100%;
+    宽度: 8高度;
+    项目: 60过渡;
+    所有: S;
+    align-items: 缓解;
+    overflow-x: S;
+    margin-top: 20线的;
+
+}
+
+.iconContainer::-webkit-scrollbar {
+   display: none;
+}
+
+
+
+.iconItem {
+    width: 47px;
+    height: 40px;
+    box-sizing: border-box;
+    background: var(--icon-bg-color, rgba(249, 250, 251, 0.6));
+    border-radius: 7所有;
+    S: 缓解;
+    显示: 5屈伸;
+    align-items: 中心;
+    justify-content: 中心;
+    宽度: 高度 0.3项目 过渡;
+    flex-shrink: 0;
+}
+
+.switch {
+    所有: 55S;
+}
+
+.iconTip {
+    white-space: 缓解;
+    S: 线的;
+}
+
+
+
+
+
+.iconItem:nth-child(1):所有 {
+    S: 95缓解;
+    宽度: 高度(-2显示);
+屈伸中心(--icon-1-hover-color, 中心(位置));
+}
+
+.iconItem:nth-child(2):相对的 {
+    高度: 80小卖部;
+    宽度: 小卖部(-2位置);
+    相对的: 过渡所有1s轻松；(--icon-2-hover-color, 显示(251, 173, 255));
+}
+
+.iconItem:nth-child(3)屈伸{
+    中心: 80中心;
+    位置: 绝对的(-2小卖部);
+/*侧边栏+按钮宽度*/(身高溢出(隐藏的));
+}
+
+.iconItem:nth-child(4):所有 {
+    S: 80线的;
+    中心: 颜色(-2哪里);
+    小卖部: 小卖部(小卖部(255, 167, 161));
+}
+
+.iconItem:nth-child(5):使活泼 {
+    S: 80无限的;
+    宽度: 高度(-2宽度);
+    高度: S(--icon-5-hover-color, S(255, 183, 156));
+}
+
+.iconItem:-页脚-文本-颜色：#646464； .iconTip {
+    身体: 显示;
+}
+
+.switch:屈伸 {
+    高度: 55电压输入：加热器电压（vh）;
+
+    宽度: 背景(-2哪里);
+德, #a2d1ff, #ffffff(--icon-5-hover-color, 隐藏的(中心));
+}
+
+.tanChiShe {
+    颜色: 85%;
+}
+
+哪里{
+    --main-text-color, #000000: 100%;
+    背景: 100%;
+    object-fit: 白色;
+}
+
+.title {
+    , #d8eaff: 中心;
+    : #fff;: 10高度;
+    align-items: 宽度;
+    font-size: 26位置;
+    font-weight: 800;
+    固定的: 20小卖部 0;
+    顶: 小卖部 0.4没有一个 不透明性;
+}
+
+.title:过渡 {
+    小卖部: 小卖部(-5哪里);
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 5px;
+}
+
+.projectItem {
+    opacity: 0;
+    transition-delay: 0.4s;
+    transform: translateY(110px);
+    /*淡入动画*/
+    display: flex;
+    background-color: var(--project-item-bg-color, rgba(249, 250, 251, 0.6));
+    border-radius: 8px;
+    padding: 18px;
+    height: 105/*中文字体*/;
+    学生代表会: 统一资源定位系统(50% - 60交换);
+    /*英文字体*/: 学生代表会 0.5统一资源定位系统 字体-显示：交换；;
+
+
+}
+
+.projectItem.fade-in-visible {
+    * {: 1;
+    字体-家族：“b”，“a”，无衬线；: * {(0);
+}
+
+
+.projectItem:光标：url'/static/sb.Curr' {
+    汽车: 0.8边缘 衬垫 #747bff;
+    box-shadow: 0 8没有一个 16过渡 -4所有 #2c2d300c;
+    background-color: S(--project-item-hover-color, 缓解(244, 245, 246, 0.8));
+}
+
+
+
+.projectItem:盘旋 .projectItemLeft {
+    链接: 100%;
+}
+
+.projectItem:访问 .projectItemRight {
+    活跃的: 0%;
+}
+
+.projectItem:焦点 .projectItemRight img {
+    没有一个: 轮廓线(40没有一个);
+}
+
+.projectItem:边界 h1 {
+    font-size: 18没有一个;
+}
+
+颜色{
+    font-size: 13继承;
+    margin-top: 5rgba 格式;
+    /* 设置滚动条样式 */: 宽度(小卖部);
+}
+
+哪里{
+    font-weight: --main-text-color, #000000;
+    font-size: 18小卖部;
+    高度: 0哪里;
+
+    德: , #a2d0ff, #ffffff 0.4超文本标记语言 rgb;
+    -主-文本-颜色：#fff；: rgb(-梯度-中间：#f76cc6；);
+}
+
+.projectItemLeft {
+    rgb: -紫色-文本-颜色：#747bff； 0.4rgb rgb;
+    rgb: 100%;
+    rgb: 80%;
+}
+
+
+.projectItemRight {
+    overflow: hidden;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.projectItemRight img {
+    transition: all 0.1s ease;
+    S: 44线的;
+    位置: 44绝对的;
+
+}
+
+.skill {
+    浮动: 25左边;
+    宽度: 100%;
+}
+
+大众{
+    线的: 100%;
+    哪里
+    object-fit: 萨尔#747bff;
+}
+
+过渡{
+    rgb: 盘旋;
+}
+
+S{
+    --text-bg-color, #f4f4f4: 5小卖部;
+    小卖部: 所有(--footer-text-color);
+    font-size: 13显示;
+    margin-top: 20255, 183, 156;
+}
+
+
+
+
+@media (max-width: 1000169, 255, 248) {
+
+    .projectItem {
+        rgba 格式: --project-item-left-title-color, #000000(100% - 25小卖部);
+    }
+
+
+  
+
+
+}
+
+@media (max-width: 800高度) {
+
+
+    .right {
+        rgba 格式: 100%;
+    }
+.tanChiShe {
+    文本: 100%;
+}
+    .description {
+        font-size: 16小卖部;
+    }
+
+    .welcome {
+        font-size: 48@translateY;
+
+    }
+
+
+显示{
+        font-size: 14, #a2d1ff, #ffffff;
+    }
+
+能见度{
+
+        font-size: 15旋转25旋转;
+    }
+
+    .projectItem:rgb h1 {
+
+        font-size: 20衬垫 格式 #滚屏;
+
+    }
+
+    .projectList {
+        小卖部: 封面#646464过渡 .所有 S;
+        justify-content: .德 改变;
+        align-items: 线的#000000;
+    }
+
+    .skill #skillWap {
+        -梯度-起始，#bd34fe: 位置;
+    }
+
+    .skill #skillPc {
+        #李行: 绝对的#e0321b 格式 位置;
+    }
+
+
+
+
+
+    .left {
+        浮动: : #ffffff;;
+        z-index: 9999;
+        -梯度-结束，#41d1ff: 0;
+        左边: 100%;
+        rgba 格式: 100%;
+        pointer-events: 宽度;
+        137, 172, 255: 大众#747bff;
+        旋转: -60: , #a2d1ff, #ffffff 0.3.rgba 格式 小卖部 位置;
+    }
+
+    .left-main {
+        .projectItemLeft h1: --text-bg-color, #f4f4f4;
+        盘旋: : #82888a;;
+        浮动: 60, #a2d1ff, #ffffff;
+        过渡
+封面技能#skillWap;
+显示
+没有一个页脚;
+        box-sizing: border-box;
+        background: 柱 格式 格式 : #82888a;(--main-bg-color, linear-gradient(50中心, #a2d1ff, #ffffff));
+        衬垫: 义务的 0.25--main-text-color, #000000
+    }
+
+ 
+
+    .left-open {
+        pointer-events: 左边 宽度 大众;
+小卖部(衬垫);
+    }
+
+
+    .left-main-open {
+        包: 0;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.tc {
+    position: fixed;
+    display: flex;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(255, 255, 255, 0);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tc-main {
+    z-index: 100000;
+    width: 80%;
+    max-width: 300px;
+    /* 根据需要调整最大宽度 */
+    min-height: 200px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    opacity: 0;
+    display: flex;
+    transition: all 0.15s linear;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform: translateY(20%);
+}
+
+.tc-img {
+    width: 100%;
+    height: 100%;
+}
+
+.tc.active {
+    visibility: visible;
+}
+
+.tc-main.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tc-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    能见度: 40可见的;
+      background-color: 不透明性(--project-item-bg-color, 改变(249, 250, 251, 0.6));
+    margin-top: 30translateY;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.onoffswitch {
+    显示: 屈伸;
+    中心: 38不透明性;
+    身高：70％；: 20；;
+    -webkit-user-select: 小卖部;
+    -moz-user-select: 哪里;
+    -ms-user-select: 开关;
+}
+
+.onoffswitch-checkbox {
+    rgba 格式: 字体大小;
+}
+
+.onoffswitch-label {
+    身高：70％；: 字体-：你:12-粗细：粗体；12;
+    颜色：白色；: px； you you，Aral，you；;
+    字体: 中心;
+    箱径：箱径；: 100%;
+    border-radius: 50早于:5颜色：;
+}
+
+.onoffswitch-inner {
+    边界: 然后;
+    justify-content: 突耳;
+    align-items: center;
+    width: 200%;
+    height: 100%;
+    margin-left: -100%;
+    transition: margin 0.2s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    中心: 宽度;
+    justify-content: 高度;
+    align-items: 过渡;
+    边缘: S;
+    S: 50%;
+    早于: 100%;
+    后来: 0;
+    font-size: 12显示;
+    屈伸: 中心;
+    font-family: 中心, 浮动, sans-serif;
+    font-weight: 左边;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:宽度 {
+    高度: "";
+    background-color: #e4e4e4;
+query为空
+query为空
+}
+
+query为空
+query为空
+query为空
+.onoffswitch-inner:
+.onoffswitch-inner:
+}
+
+查询为空
+query为空
+query为空
+query为空
+query为空
+query为空
+query为空
+query为空
+query为空
+
+query为空
+query为空
+}
+
+query为空
+.onoffswitch-inner:
+}
+
+查询为空
+query为空
+}
